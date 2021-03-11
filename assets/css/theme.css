@@ -110,6 +110,10 @@ header .logo {
     font-size: 23px;
     left: 45%;
   }
+
+  #airtable-form {
+    width: 85%;
+  }
 }
 
 @media screen and (min-width: 551px) {
@@ -394,6 +398,27 @@ header .basket span {
   height: 40%;
   background-color: #343234;
   z-index: -1;
+}
+@media screen and (max-width: 670px) {
+  #slider article .slide-title {
+    font-size: 60px;
+    line-height: 120px;
+    margin: 60px 0 60px 150px;
+  }
+  #slider article .slide-title .code:before {  
+    bottom: 20px;
+    height: 25%;
+  }
+}
+@media screen and (max-width: 450px) {
+  #slider article .slide-title {
+    font-size: 45px;
+    margin: 60px 0 60px 100px;
+  }
+  #slider article .slide-title .code:before {  
+    bottom: 30px;
+    height: 15%;
+  }
 }
 #slider article .slide-title .code > span {
   position: absolute;
